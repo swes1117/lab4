@@ -1,12 +1,40 @@
 questionA:
-如果你想將你第一個函示 double average(double *,double &);為可執行的話，你必須先定義例如以下:
-double *a=x;
-x=3.5;
-double &b=y;
-y=3.5;
-average(a,b);(結果是(3.5+3.5)/2)
-證明如果要使其函示成立需先用兩個變數x,y來儲存其值，即可。
-第二個函示使用方法就一般給定兩個邊數(一個為整數變數一個為浮點變數)即可。
+0000000000600e50 d _DYNAMIC
+0000000000600fe8 d _GLOBAL_OFFSET_TABLE_
+0000000000400608 R _IO_stdin_used
+                 w _Jv_RegisterClasses
+00000000004004b4 T _Z7averagePdRd
+00000000004004e2 T _Z7averageif
+0000000000600e30 d __CTOR_END__
+0000000000600e28 d __CTOR_LIST__
+0000000000600e40 D __DTOR_END__
+0000000000600e38 d __DTOR_LIST__
+0000000000400738 r __FRAME_END__
+0000000000600e48 d __JCR_END__
+0000000000600e48 d __JCR_LIST__
+0000000000601018 A __bss_start
+0000000000601008 D __data_start
+00000000004005c0 t __do_global_ctors_aux
+0000000000400420 t __do_global_dtors_aux
+0000000000601010 D __dso_handle
+                 w __gmon_start__
+0000000000600e24 d __init_array_end
+0000000000600e24 d __init_array_start
+00000000004005b0 T __libc_csu_fini
+0000000000400520 T __libc_csu_init
+                 U __libc_start_main@@GLIBC_2.2.5
+0000000000601018 A _edata
+0000000000601028 A _end
+00000000004005f8 T _fini
+0000000000400390 T _init
+00000000004003d0 T _start
+00000000004003fc t call_gmon_start
+0000000000601018 b completed.6531
+0000000000601008 W data_start
+0000000000601020 b dtor_idx.6533
+0000000000400490 t frame_dummy
+000000000040050a T main
+
 questionB:
 由OUTPUT可知，在vim的環境下，char是1byte,int是4bytes,float也是4bytes,double則是8bytes，然而在指標變數中所有型態皆是8bytes。
 結果如下:
